@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_RainDrop 1
+  m_Shader: {fileID: -6465566751694194690, guid: 15d262945c1d4504490f676d4767ff2f,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_99a20b0d2bdb43ecb7803b3e7710dcab:
+        m_Texture: {fileID: 2800000, guid: 549bd97a254c0d142b4fd4aa8402b08e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_adcfa11903ee47ef9487798bdeb63c18:
+        m_Texture: {fileID: 2800000, guid: b576bdc7617df4d6ba54a339278e07e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_d2476f4df9204b7f9fd99ba6678ca3a3:
+        m_Texture: {fileID: 2800000, guid: 18207043afe1d4b219c88dafbcc8f300, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_0347d96ceed24bed82adb921ef7017e1: -33.5
+    - Vector1_0ed96416073349cdb8177bd58b3d6599: 39.8
+    - Vector1_125e2890547940da941c0313942ddc9c: 7
+    - Vector1_2225f8d8434e4078b6bbb0dd975255a7: 1
+    - Vector1_2f248933e1324ac08168f1ac808ce22b: 0.1
+    - Vector1_98f85b72e8d142fdb5099f217f7f74db: 0.65
+    - Vector1_9e6fdcec2cc143b69efa713145c7fb6f: 1
+    - Vector1_a7b6d2ddd2f94696b7f7003582f6c999: 0.3
+    m_Colors:
+    - Color_303275f25e5d4d85b5527f54379ee266: {r: 0.6132076, g: 0.6132076, b: 0.6132076,
+        a: 0}
+    - Vector2_65898de951c74fc68884ea4f238d365a: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_b0f86028e1cf48dc9897c0c25b50b617: {r: 10, g: 10, b: 0, a: 0}
+  m_BuildTextureStacks: []
