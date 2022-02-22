@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Raindrop 2 Cylinder top
+  m_Shader: {fileID: -6465566751694194690, guid: 1bde8539949a0d945a0f2d9574c17087,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_08bdd61346f6429ba34296e753d92a8e:
+        m_Texture: {fileID: 2800000, guid: 25c40b3d0c237894d8c0f893dddf47ac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_b907cb1835ec4bc7b3288ff960177bc5:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_2e89f210c92340ff89d2cc1da725d7e9: 4.9
+    - Vector1_3a8a9423e6f549f49998bfdf2854aa92: 1
+    - Vector1_603afe50310b4a729fde9c744ed82a50: 4.97
+    - Vector1_95a6209188f643818fb56d8894a8d5f1: 1
+    - Vector1_97e3b46125644ce9ab11bc7844418dad: 5
+    - Vector1_98d63fc16f1b4bcda6438636bc46e40f: 0.48
+    - Vector1_a20880e4862c4f7e9adb3017d089c97f: 1.3
+    - Vector1_b15db7a9e03946a7adcfe235acea1026: 2
+    - Vector1_f91f04a733684c7fbce57a622c3bb236: 0.2
+    - Vector1_fd5a91642a634d3c9921584cbcbf5971: 0.2
+    m_Colors:
+    - Color_2a1a48bae7e44a4bafdb52a7a4ec2b37: {r: 0.2264151, g: 0.2264151, b: 0.2264151,
+        a: 1}
+    - Vector2_20bfadf4477046be8005bbc04c833e7d: {r: 1, g: 0.2, b: 0, a: 0}
+  m_BuildTextureStacks: []
