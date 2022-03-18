@@ -10,8 +10,6 @@ public class For : MonoBehaviour
     {
         while(done)
             ForMethode();
-        
-        
     }
     public void ForMethode()
     {
