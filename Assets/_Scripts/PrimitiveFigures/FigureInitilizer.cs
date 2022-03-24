@@ -9,6 +9,7 @@ public class FigureInitilizer : MonoBehaviour
     public Camera cam;
     RaycastHit hit;
     public GameObject end_Point;
+    public Material black_Material;
 
     float x;
     float y;
@@ -50,7 +51,7 @@ public class FigureInitilizer : MonoBehaviour
     //Creating primitive, add position and other components
     void CreateMesh()
     {
-        go3.GetComponent<MeshRenderer>().material.color = Color.black;
+        go3.GetComponent<MeshRenderer>().material = black_Material;
         go3.transform.localScale = new Vector3((float)0.5, (float)0.5, (float)0.5);
 
         go3.AddComponent<CheckCollision>();

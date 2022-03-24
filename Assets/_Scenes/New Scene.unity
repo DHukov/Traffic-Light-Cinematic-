@@ -698,6 +698,7 @@ MonoBehaviour:
   rangeOfRay: 250
   cam: {fileID: 550890577}
   end_Point: {fileID: 1471158089}
+  black_Material: {fileID: 2100000, guid: 87c27c3fd2efbca4ab8e5645b24e03d8, type: 2}
   z: 60
   reUse: 0
   figureType: 0
@@ -728,7 +729,6 @@ MonoBehaviour:
   cubeMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
   sphereMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   capsuleMesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
-  isChanged: 0
 --- !u!1 &319758156
 GameObject:
   m_ObjectHideFlags: 0

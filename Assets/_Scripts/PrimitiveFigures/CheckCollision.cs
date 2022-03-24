@@ -5,7 +5,7 @@ using UnityEngine;
 public class CheckCollision : MonoBehaviour
 {
     GameObject OG;
-    GameObject localGo;
+    public GameObject localGo;
 
     public int hours, minute, seconds;
     public int vertexes;
@@ -17,6 +17,7 @@ public class CheckCollision : MonoBehaviour
     //Generate start data of figure
     private void Start()
     {
+        localGo = this.gameObject;
         OG = GameObject.Find("RayCast_StartPoint");
         StartCoroutine(AddTag());
 
@@ -31,13 +32,13 @@ public class CheckCollision : MonoBehaviour
         if (OG.GetComponent<FigureInitilizer>().figureType == FigureType.Capsule)
             primitiveType = "Capsule";
 
-        vertexes = GetComponent<MeshFilter>().mesh.vertexCount / 3;
+        vertexes = GetComponent<MeshFilter>().mesh.vertexCount;
         localGo.gameObject.tag = "New_Figure";
     }
     //Call method with generating new data of figure
     public void NewDataChenger()
     {
-        newVertexes = GetComponent<MeshFilter>().mesh.vertexCount / 3;
+        newVertexes = GetComponent<MeshFilter>().mesh.vertexCount;
         newHours = System.DateTime.Now.Hour;
         newMinute = System.DateTime.Now.Minute;
         newSeconds = System.DateTime.Now.Second;
