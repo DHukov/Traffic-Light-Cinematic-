@@ -1,6 +1,7 @@
-Project added to portfolio in trying did tasks for one job and defend a project at the university
+Purpose of this project are demonstration programming skills
+- Implementation traffic light with green arrow;
+- Clouds with space rotation;
 
-VFX project demonstrating. 
-- Programming skills 
-- Unity Engine knowledge 
-- VFX / Sounds / Timeline and others functions
+VFX elemnts like: 
+- Particles: rain, fog, shot, flying bullet;
+- Shaders: rain drop on objects, rain drop ripples on ground, matrix screen on tv.
