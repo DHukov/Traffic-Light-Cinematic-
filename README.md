@@ -8,3 +8,5 @@ Purpose of this project are demonstration of programming, VFX and creating cutsc
 VFX elemnts like: 
 - Particles: rain, fog, shot, flying bullet;
 - Shaders: rain drop on objects, rain drop ripples on ground, matrix screen on tv.
+
+Cinematic video: https://www.youtube.com/watch?v=TUl7wCqJMM4
