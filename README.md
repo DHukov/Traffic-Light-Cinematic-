@@ -1,4 +1,4 @@
-Purpose of this project are demonstration programming skills
+Purpose of this project are demonstration of programming, VFX and creating cutscenes skills
 - Implementation traffic light with green arrow;
 
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/48653308/219959355-1dba82df-95c6-4df3-8fab-7201663854ae.gif)
